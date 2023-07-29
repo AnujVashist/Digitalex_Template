@@ -1,0 +1,246 @@
+@import url(./_variables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+/* ---section-1 ---*/
+.header{
+    background-image: url(images/hearder.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.white-bg{
+    border-radius: 30px;
+    opacity: .9;
+}
+.nav-item01>a{
+    line-height: 60px;
+    color: var(--main-color);
+}
+.nav-item:hover{
+    line-height: 30px;
+    color: var(--main-color);
+}
+.nav-link{
+    color: #050505;
+}
+.nav-link:hover, .nav-link01, .icon{
+    color: var(--main-color);
+}
+
+/* section-1 part -2 */
+.banner-bg>span{
+    color: var(--main-color);
+}
+.banner-bg>h1{
+    color: #050505;
+    font-size: 66px;
+    letter-spacing: 20px;
+}
+.banner-bg>p{
+    color: #1f1f1f;
+}
+.btn_1{
+    background-color:#17094c !important;
+}
+.btn_1:hover{
+    background-color:var(--main-color) !important;
+} 
+.img-btn{
+    width: 30px;
+}
+
+/* about us */
+.main-span{
+    color: var(--main-color);
+}
+.main-heading{
+    color: #202020;
+}
+/* about us */
+
+.about-main{
+    background-image: url(images/abo_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+}
+
+.about_us>p{
+    color: #4a4a49;
+}
+.read_more{
+    background-color: #17094c;
+    padding: 8px 30px;
+}
+.read_more:hover{
+    background-color: var(--main-color);
+}
+
+/* servives */
+.services_bg{
+    background-image: url(images/service.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0 60px 0;
+    margin-top: 80px;
+}
+.services{
+    padding-left: 120px;
+    padding-bottom: 60px;
+}
+.services_text:hover{ 
+    border: none;
+}
+.services_text>img{
+    filter: grayscale(100%);
+}
+.services_text:hover>img{
+    filter: grayscale(100%);
+}
+
+.services_text:hover>img{
+    filter: none;
+    transition: ease-in all .5s;
+}
+.services_text:hover>h3{
+    color:#fbca47;
+    transition: ease-in all .5s;
+}
+.services_text:hover{
+    color: var(--main-color);
+}
+.services_text:hover>button{
+    background-color: transparent;
+    color: var(--main-color);
+    border-color:var(--main-color);
+    border-radius: 2px solid #fbca47;
+    transition: ease-in all .5s;
+} 
+
+/* <!-- Bitcoins --> */
+.bit_bg{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    background-position: center;
+}
+
+/*  <!-- wallet --> */
+
+/* <!-- newsletter --> */
+.newsletter{
+    background-image: url(images/sub_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    margin-top: 90px;
+}
+.news_form{
+    padding-top:40px;
+}
+.enter_form{
+    border:#fff solid 1px;height:55px;
+    padding:0 25px;border-radius:30px;background-color:#fff;font-size:17px;
+    width: 65%;
+}
+.subscribe_btn{
+    width:20%;
+    font-size:18px;
+    padding:4px 0;
+    border-radius:48px;
+    border:#fff solid 10px;margin-left:-50px;background:#fbca47;
+    color:#fff
+}
+.subscribe_btn:hover{
+    background-color:#17094c
+}
+
+/* <!-- Testimonial --> */
+
+.testimonial_text>span{
+    color: #202020;
+    border-bottom: #fbca47 solid 3px;
+}
+
+/* <!-- Contact Us --> */
+
+.contac_form .contac_control {
+    padding: 0 30px;
+    margin-bottom: 40px;
+    height: 57px;
+    color: #cecece;
+    border: #ccc8da solid 1px;
+    border-radius: 30px;
+}
+.contac_form .textarea {
+    padding: 0 30px;
+    margin-bottom: 40px;
+    color: #cecece;
+    border: #ccc8da solid 1px;
+    height: 200px;
+    padding-top: 83px;
+    border-radius: 30px;
+}
+.contac_form .send_btn {
+
+    background-color: var(--main-color);
+    padding: 15px 0;
+    border-radius: 40px;
+    border: none;
+    max-width: 217px;
+    margin-top: 30px;
+}
+.contac_form .send_btn:hover {
+    background-color: #180552;
+}
+
+/*  <!-- footer --> */
+.footer{
+    background-color: #180552;
+    padding: 50px 90px;
+}
+.sec{
+    text-align: left;
+    margin-bottom: 19px;
+    margin-top: 9px;
+}
+.footer-sec2>ul>li{
+    list-style: none;
+}
+.list-icon{
+    list-style: none;
+}
+.footer-data{
+    font-size: 16px !important;
+}
+
+
+.follow-us>a{
+    background-color: var(--main-color);
+    color: #FFFFFF;
+    padding: 8px 11px 10px 12px;
+}
+.follow-us>a:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+.socialmediaicon.facebook{
+    padding: 10px 15px 10px 15px;
+}
+.footericon{
+    list-style: none;
+}
+/* ---last section--- */
+.last-section{
+    background-color: #180552;
+}
