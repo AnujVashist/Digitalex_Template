@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MEDIA Digitalex</title>
+    <title>Template Digitalex</title>
 
     <!-- favicon.ico -->
-    <link rel="shortcut icon" href="./images/services_icon3h.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/services_icon3h.png" type="image/x-icon">
 
     <!-- css bootstrap -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
 
     <!-- bootstrap_icons -->
     <link rel="stylesheet"
@@ -24,77 +24,84 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- slick-css -->
+    <link rel="stylesheet" href="slick.css">
+    <!-- slick theme css -->
+    <link rel="stylesheet" href="slick-theme.css">
+
+    <!-- owl-slider-file-->
+    <link rel="stylesheet" href="./owlCarousel/assets/owl.carousel.min.css">
+    <!-- owl-defalut-file -->
+    <link rel="stylesheet" href="./owlCarousel/assets/owl.theme.default.min.css">
+
     <!-- style.css  -->
-    <link rel="stylesheet" href="./media.css">
-
-    <link rel="stylesheet" href="./mediaquery.css">
-
+    <link rel="stylesheet" href="style.css">
 
 </head>
-<!-- <body  oncontextmenu="return false" , oncopy="return false" , onpaste="return false" > -->
+<!--<body  oncontextmenu="return false" , oncopy="return false" , onpaste="return false" >-->
 
 <body>
-    <div class="container-fluid header d-flex justify-content-center ">
-        <div class="container bg-light ps-5 m-3 white-bg py-3 my-5">
-            <!-- navbar start -->
-            <nav class="navbar navbar-expand-lg  text-light px-5">
-                <a href="" class="navbar-brand ms-0">
-                    <img src="./images/logo.png" alt="/" height="40px">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto">
-                        <a href=""
-                            class="nav-item nav-link01 text-decoration-underline text-uppercase mx-0 mx-lg-1 fw-semibold">Home</a>
-                        <a href=""
-                            class="nav-item nav-link text-decoration-underline text-uppercase  mx-0 mx-lg-1 fw-semibold">About</a>
-                        <a href=""
-                            class="nav-item nav-link text-decoration-underline text-uppercase mx-0 mx-lg-1 fw-semibold">Services</a>
-                        <a href=""
-                            class="nav-item nav-link text-decoration-underline text-uppercase mx-0 mx-lg-1 fw-semibold">Blog</a>
-                        <a href=""
-                            class="nav-item nav-link nav-link text-decoration-underline text-uppercase mx-0 mx-lg-1 fw-semibold">Contact
-                            Us</a>
-                        <a href=""
-                            class="nav-item nav-link text-decoration-underline text-uppercase fw-semibold mx-0 mx-lg-1"><i
-                                class="fa-solid fa-user icon"></i>LOGIN</a>
-                        <a href="#" class="nav-link text-decoration-underline mx-0 mx-lg-1"><i
-                                class="fa-solid fa-magnifying-glass icon"></i></a>
-                    </div>
-                </div>
-            </nav>
-            <!-- navbar end -->
-
-            <!-- main banner -->
-            <div class="row g-1 mt-5">
-                <div class="col-12 col-lg-7 fs-5 lh-3 banner-bg">
-                    <span class="text-uppercase fs-2 pb-4 fw-bold">Progress & Success</span>
-                    <h1 class="text-uppercase pb-4 fw-1">currency</h1>
-                    <p class="lh-3 pb-4 fs-5">It is a long established fact that a reader will be distracted by the
-                        readable It is a long established fact that a reader will be distracted by the readable</p>
-                    <a href="#" role="button"
-                        class="btn btn_1 fs-5 bg-dark rounded fw-1 text-center text-uppercase  text-light">
-                        <img class=" img-btn" src="./images/btn_h.png" alt="/"> Discover Now
+    <div class="container-fluid header p-5  ">
+        <div class="container bg-light ps-5 m-3 white-bg py-3">
+            <!-- navbar -->
+            <div class="row text-light ">
+                <div class="col-3">
+                    <a href="/" class="mb-3 mb-0 me-0">
+                        <img src="images/logo.png" alt="/" height="40px">
                     </a>
                 </div>
-                <div class="col-12 col-lg-5">
-                    <img src="./images/ban_img.png" alt="/" class=" m-2 p-2 w-100 h-85">
+                <div class="col-9 d-flex justify-content-end ">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item01 fw-semibold"><a href="#"
+                                class="nav-link01 text-decoration-underline">HOME</a></li>
+                        <li class="nav-item fw-semibold"><a href="#"
+                                class="nav-link text-decoration-underline">ABOUT</a></li>
+                        <li class="nav-item fw-semibold"><a href="#"
+                                class="nav-link text-decoration-underline">SERVICES</a></li>
+                        <li class="nav-item fw-semibold"><a href="#" class="nav-link text-decoration-underline">NEWS</a>
+                        </li>
+                        <li class="nav-item fw-semibold"><a href="#" class="nav-link text-decoration-underline">CONTACT
+                                US</a></li>
+                        <li class="nav-item fw-semibold"><a href="#" class="nav-link text-decoration-underline"><i
+                                    class="fa-solid fa-user icon"></i>LOGIN</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-decoration-underline"><i
+                                    class="fa-solid fa-magnifying-glass icon"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- main banner -->
+            <div class="row w-100 mt-5 owl-carousel owl-theme">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-7  fs-5 lh-3 banner-bg">
+                                <span class="text-uppercase fs-2 pb-4 fw-bold">Progress & Success</span>
+                                <h1 class="text-uppercase pb-4 fw-1">currency</h1>
+                                <p class="lh-3 pb-4 fs-5">It is a long established fact that a reader will be distracted by the
+                                    readable It is a long established fact that a reader will be distracted by the readable</p>
+                                <button
+                                    class=" btn btn_1 d-flex align-items-center fs-5 bg-dark rounded fw-1 text-center text-uppercase  text-light "><a
+                                        href="/"><img class="img-btn w-75 " src="images/btn_h.png" alt="/"></a> Discover Now
+                                </button>
+                            </div>
+                            <div class="col-5">
+                                <img src="images/ban_img.png" alt="/">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
     <!-- about us -->
 
     <div class=" container-fluid about-main py-5 ">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-sm-12 col-lg-5">
-                    <img class="about-img m-lg-1 w-100" src="./images/about.png" alt="/">
+                <div class="col-5">
+                    <img src="images/about.png" alt="/">
                 </div>
-                <div class="col-12 col-sm-12 col-lg-7  about_us">
+                <div class="col-7 about_us">
                     <span class="main-span fs-5 lh-3 fw-bolder text-uppercase pb-1">ABOUT US</span>
                     <h2 class="main-heading fs-1 lh-3 fw-4 text-uppercase">Welcome TO OUR DEGITALEX</h2>
                     <p class="fs-5 pt-3 lh-3 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eaque
@@ -113,15 +120,15 @@
 
     <!-- Services -->
     <div class="container-fluid services_bg text-light mx-auto">
-        <div class="services pt-pb-5  ">
+        <div class="services pt-pb-5 ">
             <span class="main-span fs-5 lh-3 fw-bolder text-uppercase pb-1">Services</span>
             <h2 class="main-heading fs-1 lh-3 fw-4 text-uppercase text-light ">consectetur adipiscing elit</h2>
         </div>
         <div class="container text-center services-sec ">
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-3 col-12 services_text">
+                <div class="col-3 services_text">
                     <!-- <img src="images/services_icon1h.png" alt=""> -->
-                    <img src="./images/services_icon1h.png" alt="">
+                    <img src="images/services_icon1h.png" alt="">
                     <h3 class="services_heading fs-3 fw-bolder pt-pb-3">Safe & Secure</h3>
                     <p class="text-light fs-5 fw-4 mb-3">ncididunt ut labore et dolore magna aliqua. Ut enim</p>
                     <button type="button"
@@ -129,24 +136,24 @@
                         More</button>
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-3 col-12 services_text">
-                    <img src="./images/services_icon2h.png" alt="">
+                <div class="col-3 services_text">
+                    <img src="images/services_icon2h.png" alt="">
                     <h3 class="services_heading fs-3 fw-bolder pt-pb-3">Mobile Apps</h3>
                     <p class="text-light fs-5 fw-4 mb-3">ncididunt ut labore et dolore magna aliqua. Ut enim</p>
                     <button type="button" class="btn btn-outline-light fw-4 text-center pt-pb-2 pr-pl-4  ">Read
                         More</button>
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-3 col-12 services_text">
-                    <img src="./images/services_icon3h.png" alt="">
+                <div class="col-3 services_text">
+                    <img src="images/services_icon3h.png" alt="">
                     <h3 class="services_heading fs-3 fw-bolder pt-pb-3">Wallet</h3>
                     <p class="text-light fs-5 fw-4 mb-3">ncididunt ut labore et dolore magna aliqua. Ut enim</p>
                     <button type="button" class="btn btn-outline-light fw-4 text-center pt-pb-2 pr-pl-4  ">Read
                         More</button>
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-3 col-12 services_text">
-                    <img src="./images/services_icon4h.png" alt="">
+                <div class="col-3 services_text">
+                    <img src="images/services_icon4h.png" alt="">
                     <h3 class="services_heading fs-3 fw-bolder pt-pb-3">Experts Support</h3>
                     <p class="text-light fs-5 fw-4 mb-3">ncididunt ut labore et dolore magna aliqua. Ut enim</p>
                     <button type="button" class="btn btn-outline-light fw-4 text-center pt-pb-2 pr-pl-4  ">Read
@@ -165,24 +172,25 @@
                     <h2 class="main-heading fs-1 lh-3 fw-4 text-uppercase">Why are so many people <br>investing in
                         digital
                     </h2>
-
-                    <img class="w-75 pb-5" src="./images/bitcoins.jpg" alt="/">
-
+                    <div class="bit_img">
+                        <img class="w-70 pb-5" src="images/bitcoins.jpg" alt="/">
+                    </div>
                 </div>
             </div>
             <button class="read_more text-light border-0 rounded"><a href="/"></a>Start Now</button>
         </div>
     </div>
 
+
     <!-- wallet -->
 
     <div class="container text-center">
         <div class="row">
-            <div class="col-12 wallet">
+            <div class="col-12 wallet mt-5">
                 <span class="main-span fs-5 lh-3 fw-bolder text-uppercase pb-1">wallet</span>
                 <h2 class="main-heading fs-1 lh-3 fw-4 text-uppercase">A MOST POWERFUL WALLET USE THIS WALLET FOR NEXT
                     SECURE TRANSACTION.</h2>
-                <img class="w-75" src="./images/wallet.jpg" alt="/">
+                <img class="mb-5" src="images/wallet.jpg" alt="/">
             </div>
         </div>
         <button class="read_more text-light border-0 rounded "><a href="/"></a>Make wallet</button>
@@ -200,9 +208,8 @@
                         a
                         more-or-less normal <br>distribution of letters,</p>
                     <form action="#" method="post" class="news_form">
-                        <input class="enter_form col-md-12" placeholder="Enter your email" type="text"
-                            name="Enter your email">
-                        <button class="subscribe_btn col-md-12">subscribe now</button>
+                        <input class="enter_form" placeholder="Enter your email" type="text" name="Enter your email">
+                        <button class="subscribe_btn">subscribe now</button>
                     </form>
                 </div>
             </div>
@@ -212,12 +219,45 @@
     <!-- Testimonial -->
     <div class="container text-center mt-5 mb-5">
         <div class="row">
-            <div class="col-12 testimonial ">
+            <div class="col testimonial ">
                 <span class="main-span fs-5 lh-3 fw-bolder text-uppercase pb-1 pt-2">Testimonial</span>
                 <h2 class="main-heading fs-1 lh-3 fw-4 text-uppercase">What is says our clients</h2>
                 <div class="main_slider">
                     <div class="slide">
-                        <img class="text-center mx-auto" src="./images/test.png" alt="/">
+                        <img class="text-center mx-auto" src="images/test.png" alt="/">
+                        <div class="testimonial_text">
+                            <span class="text-uppercase fw-bold mt-1">distracted by</span>
+                            <p class="p-3 fs-5">It is a long established fact that a reader will be distracted by the
+                                readable content of a page when looking at its layout. The point of using Lorem Ipsum is
+                                that it has a more-or-less normal
+                                distribution of letters,</p>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <img class="text-center mx-auto" src="images/test.png" alt="/">
+                        <div class="testimonial_text">
+                            <span class="text-uppercase fw-bold mt-1">distracted by</span>
+                            <p class="p-3 fs-5">It is a long established fact that a reader will be distracted by the
+                                readable content of a page when looking at its layout. The point of using Lorem Ipsum is
+                                that it has a more-or-less normal
+                                distribution of letters,</p>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <img class="text-center mx-auto" src="images/test.png" alt="/">
+                        <div class="testimonial_text">
+                            <span class="text-uppercase fw-bold mt-1">distracted by</span>
+                            <p class="p-3 fs-5">It is a long established fact that a reader will be distracted by the
+                                readable content of a page when looking at its layout. The point of using Lorem Ipsum is
+                                that it has a more-or-less normal
+                                distribution of letters,</p>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <img class="text-center mx-auto" src="images/test.png" alt="/">
                         <div class="testimonial_text">
                             <span class="text-uppercase fw-bold mt-1">distracted by</span>
                             <p class="p-3 fs-5">It is a long established fact that a reader will be distracted by the
@@ -271,40 +311,39 @@
     <!-- world map image -->
     <div class="container-fluid text-center">
         <div class="row">
-            <div class="col"><img src="./images/map-(1).png" alt="" class="w-100"></div>
+            <div class="col w-100 "><img src="images/map-(1).png" alt=""></div>
         </div>
     </div>
 
     <!-- footer -->
     <footer class=" container-fluid footer ">
         <div class="row text-light">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-3 footer-sec1 fs-5 fw-4 text-light">
-                <img class="mb-3 footer-logo" src="./images/loogo2.png" alt="/">
-                <p class="footer-data">reader will be distracted by the readable content of a page when looking at its
-                    layout.
+            <div class="col-3 footer-sec1 fs-5 fw-4 text-light">
+                <img class="mb-3" src="images/loogo2.png" alt="/">
+                <p class="fs-5">reader will be distracted by the readable content of a page when looking at its layout.
                     The point of
                     using Lorem Ipsum is that it has a more-or-less normal di</p>
             </div>
 
-            <div class="col-12 col-sm-12 col-md-6 col-lg-3 footer-sec2 ">
+            <div class="col-3 footer-sec2 ">
                 <div class=" footer-icon ">
                     <ul class="list-style-none list-icon lh-3">
                         <h3 class="sec text-light fw-3 fs-3 lh-3 text-uppercase">Quick link</h3>
                         <li class="lh-3 fs-5"><a href="#" class="text-light text-decoration-none"><i
-                                    class="fa fa-chevron-right  text-light"></i> &nbsp;&nbsp;Home</a></li>
+                                    class="fa fa-chevron-right mb-2 text-light"></i> &nbsp;&nbsp;Home</a></li>
                         <li class="lh-3 fs-5"><a href="#" class="text-light text-decoration-none"><i
-                                    class="fa fa-chevron-right text-light"></i>&nbsp;&nbsp; About</a></li>
+                                    class="fa fa-chevron-right mb-2 text-light"></i>&nbsp;&nbsp; About</a></li>
                         <li class="lh-3 fs-5"><a href="#" class="text-light text-decoration-none"><i
-                                    class="fa fa-chevron-right  text-light"></i>&nbsp;&nbsp; Currency</a></li>
+                                    class="fa fa-chevron-right mb-2 text-light"></i>&nbsp;&nbsp; Currency</a></li>
                         <li class="lh-3 fs-5"><a href="#" class="text-light text-decoration-none"><i
-                                    class="fa fa-chevron-right  text-light"></i>&nbsp;&nbsp; Exchange</a></li>
+                                    class="fa fa-chevron-right mb-2 text-light"></i>&nbsp;&nbsp; Exchange</a></li>
                         <li class="lh-3 fs-5"><a href="#" class="text-light text-decoration-none"><i
                                     class="fa fa-chevron-right text-light"></i>&nbsp;&nbsp; Subscribe</a></li>
                     </ul>
                 </div>
             </div>
 
-            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+            <div class="col-3 ">
                 <h3 class="sec text-light fw-3 fs-3 lh-3 text-uppercase">Instagram</h3>
                 <p class="footer-sec1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                 <div class="follow-us fs-5 ">
@@ -316,7 +355,7 @@
                 </div>
             </div>
 
-            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+            <div class="col-3 ">
                 <h3 class="sec text-light fw-3 fs-3 lh-3 text-uppercase">Contact us</h3>
                 <div class="get-in-touch">
                     <ul class="footer-icons ">
@@ -338,21 +377,58 @@
         </div>
     </footer>
 
-    <!-- enter date  -->
-    <!-- <form action="">
-        <input type="text" placeholder="Enter Date"
-                    onfocus="(this.type='date')" onmouseleave="(this.type='text')">
-    </form> -->
-
-    <!-- end date -->
-
     <!-- bootstrap_jquery_link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
         integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- bootstrap_bundle -->
-    <script src="js/bootstrap.bundle.min.js"></script>
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"
+        integrity="sha512-i9cEfJwUwViEPFKdC1enz4ZRGBj8YQo6QByFTF92YXHi7waCqyexvRD75S5NVTsSiTv7rKWqG9Y5eFxmRsOn0A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+    <!-- slick js -->
+    <script src="slick.min.js"></script>
+
+    <!-- owl slider -->
+    <script src="owlCarousel/owl.carousel.min.js"></script>
+
+    <script>
+        $('.main_slider').slick({
+            dots: true,
+            // infinite: true,
+            // speed: 100,
+            slidesToShow: 1,
+            adaptiveHeight: true,
+
+            autoplay: true,
+            autoplaySpeed: 500,
+            // fade: true,
+            // cssEase: 'linear'
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                margin: 25,
+                loop: true,
+                dots: false,
+                nav: true,
+                autoplay: 500,
+                autoplayHoverPause: true,
+                items: 1,
+            }
+            );
+        });
+    </script>
+
+    <!-- right click menu disabled -->
+    <!-- <script>
+        window.oncontextmenu=function(){
+            alert("right click disabled");
+            return false;
+        }
+    </script> -->
+</body>
 </html>
