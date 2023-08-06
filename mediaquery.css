@@ -16,7 +16,7 @@
         font-size: 18px;
     }
     .enter_form {
-        width: 63%;
+        width: 63%!important;
     }
 }
 /* // Small devices (landscape phones, 576px and up)  */
